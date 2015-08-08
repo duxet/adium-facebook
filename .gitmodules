@@ -1,0 +1,3 @@
+[submodule "purple-facebook"]
+	path = purple-facebook
+	url = https://github.com/jgeboski/purple-facebook.git
