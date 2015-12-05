@@ -7,7 +7,6 @@
 //
 
 #import <Adium/AIPlugin.h>
-#import <Foundation/Foundation.h>
 
 @interface AdiumFacebook : NSObject <AIPlugin>
 

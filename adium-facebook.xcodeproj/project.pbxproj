@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0C9E1C1BC471F6000A8002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0C9E1B1BC471F6000A8002 /* Foundation.framework */; };
 		EE9784501B75975C003AC838 /* AdiumFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = EE97844F1B75975C003AC838 /* AdiumFacebook.m */; };
+		EEB6BD771BC46FC7008B1803 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB6BD761BC46FC7008B1803 /* Cocoa.framework */; };
+		EEC9227C1BC476B700F3241A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC9227B1BC476B700F3241A /* AppKit.framework */; };
+		EEC922831BC47D4A00F3241A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922821BC47D4A00F3241A /* CoreData.framework */; };
+		EEC922871BC47DC900F3241A /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922841BC47DC900F3241A /* Adium.framework */; };
+		EEC922881BC47DC900F3241A /* AdiumLibpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922851BC47DC900F3241A /* AdiumLibpurple.framework */; };
+		EEC922891BC47DC900F3241A /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922861BC47DC900F3241A /* AIUtilities.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0C9E1B1BC471F6000A8002 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE10AFB31C0E2931008C5902 /* AdiumFacebook.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdiumFacebook.pch; sourceTree = "<group>"; };
 		EE9784441B758FF5003AC838 /* adium-facebook.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adium-facebook.AdiumPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9784481B758FF5003AC838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE97844E1B75975C003AC838 /* AdiumFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdiumFacebook.h; path = "adium-facebook/AdiumFacebook.h"; sourceTree = "<group>"; };
 		EE97844F1B75975C003AC838 /* AdiumFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdiumFacebook.m; path = "adium-facebook/AdiumFacebook.m"; sourceTree = "<group>"; };
+		EEB6BD761BC46FC7008B1803 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EEC9227B1BC476B700F3241A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EEC922821BC47D4A00F3241A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EEC922841BC47DC900F3241A /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
+		EEC922851BC47DC900F3241A /* AdiumLibpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdiumLibpurple.framework; sourceTree = "<group>"; };
+		EEC922861BC47DC900F3241A /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIUtilities.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,18 +37,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC922831BC47D4A00F3241A /* CoreData.framework in Frameworks */,
+				EEC922871BC47DC900F3241A /* Adium.framework in Frameworks */,
+				EEC922891BC47DC900F3241A /* AIUtilities.framework in Frameworks */,
+				EE0C9E1C1BC471F6000A8002 /* Foundation.framework in Frameworks */,
+				EEC922881BC47DC900F3241A /* AdiumLibpurple.framework in Frameworks */,
+				EEC9227C1BC476B700F3241A /* AppKit.framework in Frameworks */,
+				EEB6BD771BC46FC7008B1803 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE0C9E191BC471CA000A8002 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C9E1B1BC471F6000A8002 /* Foundation.framework */,
+				EEC922821BC47D4A00F3241A /* CoreData.framework */,
+				EEC9227B1BC476B700F3241A /* AppKit.framework */,
+				EEB6BD761BC46FC7008B1803 /* Cocoa.framework */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		EE0C9E1A1BC471D0000A8002 /* Adium */ = {
+			isa = PBXGroup;
+			children = (
+				EEC922841BC47DC900F3241A /* Adium.framework */,
+				EEC922851BC47DC900F3241A /* AdiumLibpurple.framework */,
+				EEC922861BC47DC900F3241A /* AIUtilities.framework */,
+			);
+			name = Adium;
+			sourceTree = "<group>";
+		};
 		EE97843B1B758FF5003AC838 = {
 			isa = PBXGroup;
 			children = (
 				EE97844E1B75975C003AC838 /* AdiumFacebook.h */,
 				EE97844F1B75975C003AC838 /* AdiumFacebook.m */,
 				EE9784461B758FF5003AC838 /* adium-facebook */,
+				EEB6BD701BC46D5A008B1803 /* Frameworks */,
 				EE9784451B758FF5003AC838 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,9 +101,19 @@
 		EE9784471B758FF5003AC838 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE10AFB31C0E2931008C5902 /* AdiumFacebook.pch */,
 				EE9784481B758FF5003AC838 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB6BD701BC46D5A008B1803 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C9E191BC471CA000A8002 /* System */,
+				EE0C9E1A1BC471D0000A8002 /* Adium */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +270,18 @@
 		EE97844C1B758FF5003AC838 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/adium/build/Release-Debug",
+					"$(PROJECT_DIR)/adium/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "adium-facebook/AdiumFacebook.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/adium/Source/";
 				INFOPLIST_FILE = "adium-facebook/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.duxet.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -229,9 +292,18 @@
 		EE97844D1B758FF5003AC838 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/adium/build/Release-Debug",
+					"$(PROJECT_DIR)/adium/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "adium-facebook/AdiumFacebook.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/adium/Source/";
 				INFOPLIST_FILE = "adium-facebook/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.duxet.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

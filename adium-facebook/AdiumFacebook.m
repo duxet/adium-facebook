@@ -10,4 +10,14 @@
 
 @implementation AdiumFacebook
 
+- (void) installPlugin
+{
+    
+}
+
+- (void) uninstallPlugin
+{
+    
+}
+
 @end

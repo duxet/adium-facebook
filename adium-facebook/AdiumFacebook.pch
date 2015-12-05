@@ -1,0 +1,19 @@
+//
+//  Adium.pch
+//  adium-facebook
+//
+//  Created by duxet on 01/12/15.
+//  Copyright © 2015 duxet. All rights reserved.
+//
+
+#ifndef Adium_pch
+#define Adium_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Cocoa/Cocoa.h>
+#import <Adium/AISharedAdium.h>
+#import <AIUtilities/AIStringUtilities.h>
+
+#endif /* Adium_pch */
