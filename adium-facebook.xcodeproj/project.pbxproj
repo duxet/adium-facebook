@@ -27,6 +27,7 @@
 		EEBF7F1B1C13D7BC007F3B62 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F0A1C13D7BC007F3B62 /* util.c */; };
 		EEBF7F1F1C13DB10007F3B62 /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBF7F1E1C13DB10007F3B62 /* libpurple.framework */; };
 		EEBF7F261C13E138007F3B62 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F241C13E138007F3B62 /* http.c */; };
+		EEBF7F2A1C14696B007F3B62 /* purple-socket.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F281C14696B007F3B62 /* purple-socket.c */; };
 		EEC9227C1BC476B700F3241A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC9227B1BC476B700F3241A /* AppKit.framework */; };
 		EEC922831BC47D4A00F3241A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922821BC47D4A00F3241A /* CoreData.framework */; };
 		EEC922871BC47DC900F3241A /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922841BC47DC900F3241A /* Adium.framework */; };
@@ -73,6 +74,8 @@
 		EEBF7F241C13E138007F3B62 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http.c; path = pidgin/libpurple/http.c; sourceTree = "<group>"; };
 		EEBF7F251C13E138007F3B62 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = http.h; path = pidgin/libpurple/http.h; sourceTree = "<group>"; };
 		EEBF7F271C13E1F2007F3B62 /* purple-compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "purple-compat.h"; sourceTree = "<group>"; };
+		EEBF7F281C14696B007F3B62 /* purple-socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "purple-socket.c"; path = "pidgin/libpurple/purple-socket.c"; sourceTree = "<group>"; };
+		EEBF7F291C14696B007F3B62 /* purple-socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "purple-socket.h"; path = "pidgin/libpurple/purple-socket.h"; sourceTree = "<group>"; };
 		EEC9227B1BC476B700F3241A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EEC922821BC47D4A00F3241A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EEC922841BC47DC900F3241A /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				EEBF7F241C13E138007F3B62 /* http.c */,
 				EEBF7F251C13E138007F3B62 /* http.h */,
 				EEBF7F271C13E1F2007F3B62 /* purple-compat.h */,
+				EEBF7F281C14696B007F3B62 /* purple-socket.c */,
+				EEBF7F291C14696B007F3B62 /* purple-socket.h */,
 				EEBF7EF31C13D7BC007F3B62 /* protocols */,
 			);
 			name = "purple-facebook";
@@ -291,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBF7F2A1C14696B007F3B62 /* purple-socket.c in Sources */,
 				EEBF7F261C13E138007F3B62 /* http.c in Sources */,
 				EEBF7F1B1C13D7BC007F3B62 /* util.c in Sources */,
 				EE9784501B75975C003AC838 /* AdiumFacebook.m in Sources */,
@@ -422,6 +428,7 @@
 					"-ljson-glib-1.0.0",
 					"-lm",
 					"-lintl",
+					"-lz",
 					"-headerpad_max_install_names",
 				);
 				PRELINK_LIBS = Yes;
@@ -466,6 +473,7 @@
 					"-ljson-glib-1.0.0",
 					"-lm",
 					"-lintl",
+					"-lz",
 					"-headerpad_max_install_names",
 				);
 				PRELINK_LIBS = Yes;
