@@ -7,7 +7,8 @@
 //
 
 #import <Adium/AIPlugin.h>
+#import <AdiumLibpurple/AILibpurplePlugin.h>
 
-@interface AdiumFacebook : NSObject <AIPlugin>
+@interface AdiumFacebook : AIPlugin <AILibpurplePlugin>
 
 @end

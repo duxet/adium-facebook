@@ -25,11 +25,13 @@
 #include <string.h>
 #include <zlib.h>
 
-#include "blistnodetypes.h"
+#include "../../purple-compat.h"
+
+//#include "blistnodetypes.h"
 #include "buddylist.h"
-#include "conversations.h"
+//#include "conversations.h"
 #include "glibcompat.h"
-#include "message.h"
+//#include "message.h"
 #include "request.h"
 #include "server.h"
 
@@ -48,7 +50,7 @@ fb_util_error_quark(void)
 }
 
 PurpleBuddy *
-fb_util_account_find_buddy(PurpleAccount *acct, PurpleChatConversation *chat,
+fb_util_account_find_buddy(PurpleAccount *acct, PurpleConversation *chat,
                            const gchar *search, GError **error)
 {
 	const gchar *alias;

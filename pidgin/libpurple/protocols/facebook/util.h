@@ -36,7 +36,7 @@
 #include <libpurple/util.h>
 
 #include "account.h"
-#include "conversationtypes.h"
+//#include "conversationtypes.h"
 #include "debug.h"
 #include "connection.h"
 #include "conversation.h"
@@ -117,7 +117,7 @@ fb_util_error_quark(void);
  * Returns: The #PurpleBuddy if found, otherwise #NULL.
  */
 PurpleBuddy *
-fb_util_account_find_buddy(PurpleAccount *acct, PurpleChatConversation *chat,
+fb_util_account_find_buddy(PurpleAccount *acct, PurpleConversation *chat,
                            const gchar *name, GError **error);
 
 /**

@@ -10,6 +10,23 @@
 		EE0C9E1C1BC471F6000A8002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0C9E1B1BC471F6000A8002 /* Foundation.framework */; };
 		EE9784501B75975C003AC838 /* AdiumFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = EE97844F1B75975C003AC838 /* AdiumFacebook.m */; };
 		EEB6BD771BC46FC7008B1803 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB6BD761BC46FC7008B1803 /* Cocoa.framework */; };
+		EEBF7EBE1C13CD56007F3B62 /* FacebookService.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7EBD1C13CD56007F3B62 /* FacebookService.m */; };
+		EEBF7EC01C13CDF6007F3B62 /* FacebookAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7EBF1C13CDF6007F3B62 /* FacebookAccount.m */; };
+		EEBF7F0F1C13D7BC007F3B62 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7EF51C13D7BC007F3B62 /* api.c */; };
+		EEBF7F101C13D7BC007F3B62 /* data.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7EF71C13D7BC007F3B62 /* data.c */; };
+		EEBF7F111C13D7BC007F3B62 /* facebook.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7EF91C13D7BC007F3B62 /* facebook.c */; };
+		EEBF7F121C13D7BC007F3B62 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7EFB1C13D7BC007F3B62 /* http.c */; };
+		EEBF7F131C13D7BC007F3B62 /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7EFE1C13D7BC007F3B62 /* json.c */; };
+		EEBF7F141C13D7BC007F3B62 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7F001C13D7BC007F3B62 /* Makefile.am */; };
+		EEBF7F151C13D7BC007F3B62 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7F011C13D7BC007F3B62 /* Makefile.in */; };
+		EEBF7F161C13D7BC007F3B62 /* Makefile.mingw in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7F021C13D7BC007F3B62 /* Makefile.mingw */; };
+		EEBF7F171C13D7BC007F3B62 /* marshal.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F031C13D7BC007F3B62 /* marshal.c */; };
+		EEBF7F181C13D7BC007F3B62 /* marshaller.list in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7F051C13D7BC007F3B62 /* marshaller.list */; };
+		EEBF7F191C13D7BC007F3B62 /* mqtt.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F061C13D7BC007F3B62 /* mqtt.c */; };
+		EEBF7F1A1C13D7BC007F3B62 /* thrift.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F081C13D7BC007F3B62 /* thrift.c */; };
+		EEBF7F1B1C13D7BC007F3B62 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F0A1C13D7BC007F3B62 /* util.c */; };
+		EEBF7F1F1C13DB10007F3B62 /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBF7F1E1C13DB10007F3B62 /* libpurple.framework */; };
+		EEBF7F261C13E138007F3B62 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F241C13E138007F3B62 /* http.c */; };
 		EEC9227C1BC476B700F3241A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC9227B1BC476B700F3241A /* AppKit.framework */; };
 		EEC922831BC47D4A00F3241A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922821BC47D4A00F3241A /* CoreData.framework */; };
 		EEC922871BC47DC900F3241A /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922841BC47DC900F3241A /* Adium.framework */; };
@@ -25,6 +42,37 @@
 		EE97844E1B75975C003AC838 /* AdiumFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdiumFacebook.h; path = "adium-facebook/AdiumFacebook.h"; sourceTree = "<group>"; };
 		EE97844F1B75975C003AC838 /* AdiumFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdiumFacebook.m; path = "adium-facebook/AdiumFacebook.m"; sourceTree = "<group>"; };
 		EEB6BD761BC46FC7008B1803 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EEBF7EBC1C13CD31007F3B62 /* FacebookService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookService.h; sourceTree = "<group>"; };
+		EEBF7EBD1C13CD56007F3B62 /* FacebookService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookService.m; sourceTree = "<group>"; };
+		EEBF7EBF1C13CDF6007F3B62 /* FacebookAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookAccount.m; sourceTree = "<group>"; };
+		EEBF7EC11C13CE01007F3B62 /* FacebookAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAccount.h; sourceTree = "<group>"; };
+		EEBF7EF51C13D7BC007F3B62 /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
+		EEBF7EF61C13D7BC007F3B62 /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		EEBF7EF71C13D7BC007F3B62 /* data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = data.c; sourceTree = "<group>"; };
+		EEBF7EF81C13D7BC007F3B62 /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		EEBF7EF91C13D7BC007F3B62 /* facebook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = facebook.c; sourceTree = "<group>"; };
+		EEBF7EFA1C13D7BC007F3B62 /* facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facebook.h; sourceTree = "<group>"; };
+		EEBF7EFB1C13D7BC007F3B62 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
+		EEBF7EFC1C13D7BC007F3B62 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		EEBF7EFD1C13D7BC007F3B62 /* id.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id.h; sourceTree = "<group>"; };
+		EEBF7EFE1C13D7BC007F3B62 /* json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = json.c; sourceTree = "<group>"; };
+		EEBF7EFF1C13D7BC007F3B62 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		EEBF7F001C13D7BC007F3B62 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		EEBF7F011C13D7BC007F3B62 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		EEBF7F021C13D7BC007F3B62 /* Makefile.mingw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.mingw; sourceTree = "<group>"; };
+		EEBF7F031C13D7BC007F3B62 /* marshal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = marshal.c; sourceTree = "<group>"; };
+		EEBF7F041C13D7BC007F3B62 /* marshal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = marshal.h; sourceTree = "<group>"; };
+		EEBF7F051C13D7BC007F3B62 /* marshaller.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marshaller.list; sourceTree = "<group>"; };
+		EEBF7F061C13D7BC007F3B62 /* mqtt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mqtt.c; sourceTree = "<group>"; };
+		EEBF7F071C13D7BC007F3B62 /* mqtt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqtt.h; sourceTree = "<group>"; };
+		EEBF7F081C13D7BC007F3B62 /* thrift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thrift.c; sourceTree = "<group>"; };
+		EEBF7F091C13D7BC007F3B62 /* thrift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thrift.h; sourceTree = "<group>"; };
+		EEBF7F0A1C13D7BC007F3B62 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		EEBF7F0B1C13D7BC007F3B62 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		EEBF7F1E1C13DB10007F3B62 /* libpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libpurple.framework; path = adium/Frameworks/libpurple.framework; sourceTree = "<group>"; };
+		EEBF7F241C13E138007F3B62 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http.c; path = pidgin/libpurple/http.c; sourceTree = "<group>"; };
+		EEBF7F251C13E138007F3B62 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = http.h; path = pidgin/libpurple/http.h; sourceTree = "<group>"; };
+		EEBF7F271C13E1F2007F3B62 /* purple-compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "purple-compat.h"; sourceTree = "<group>"; };
 		EEC9227B1BC476B700F3241A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EEC922821BC47D4A00F3241A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EEC922841BC47DC900F3241A /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
@@ -43,6 +91,7 @@
 				EE0C9E1C1BC471F6000A8002 /* Foundation.framework in Frameworks */,
 				EEC922881BC47DC900F3241A /* AdiumLibpurple.framework in Frameworks */,
 				EEC9227C1BC476B700F3241A /* AppKit.framework in Frameworks */,
+				EEBF7F1F1C13DB10007F3B62 /* libpurple.framework in Frameworks */,
 				EEB6BD771BC46FC7008B1803 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +113,7 @@
 		EE0C9E1A1BC471D0000A8002 /* Adium */ = {
 			isa = PBXGroup;
 			children = (
+				EEBF7F1E1C13DB10007F3B62 /* libpurple.framework */,
 				EEC922841BC47DC900F3241A /* Adium.framework */,
 				EEC922851BC47DC900F3241A /* AdiumLibpurple.framework */,
 				EEC922861BC47DC900F3241A /* AIUtilities.framework */,
@@ -74,9 +124,14 @@
 		EE97843B1B758FF5003AC838 = {
 			isa = PBXGroup;
 			children = (
+				EEBF7EC11C13CE01007F3B62 /* FacebookAccount.h */,
+				EEBF7EBF1C13CDF6007F3B62 /* FacebookAccount.m */,
+				EEBF7EBD1C13CD56007F3B62 /* FacebookService.m */,
+				EEBF7EBC1C13CD31007F3B62 /* FacebookService.h */,
 				EE97844E1B75975C003AC838 /* AdiumFacebook.h */,
 				EE97844F1B75975C003AC838 /* AdiumFacebook.m */,
 				EE9784461B758FF5003AC838 /* adium-facebook */,
+				EEBF7EEF1C13D7A3007F3B62 /* purple-facebook */,
 				EEB6BD701BC46D5A008B1803 /* Frameworks */,
 				EE9784451B758FF5003AC838 /* Products */,
 			);
@@ -114,6 +169,56 @@
 				EE0C9E1A1BC471D0000A8002 /* Adium */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEBF7EEF1C13D7A3007F3B62 /* purple-facebook */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF7F241C13E138007F3B62 /* http.c */,
+				EEBF7F251C13E138007F3B62 /* http.h */,
+				EEBF7F271C13E1F2007F3B62 /* purple-compat.h */,
+				EEBF7EF31C13D7BC007F3B62 /* protocols */,
+			);
+			name = "purple-facebook";
+			sourceTree = "<group>";
+		};
+		EEBF7EF31C13D7BC007F3B62 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF7EF41C13D7BC007F3B62 /* facebook */,
+			);
+			name = protocols;
+			path = pidgin/libpurple/protocols;
+			sourceTree = "<group>";
+		};
+		EEBF7EF41C13D7BC007F3B62 /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF7EF51C13D7BC007F3B62 /* api.c */,
+				EEBF7EF61C13D7BC007F3B62 /* api.h */,
+				EEBF7EF71C13D7BC007F3B62 /* data.c */,
+				EEBF7EF81C13D7BC007F3B62 /* data.h */,
+				EEBF7EF91C13D7BC007F3B62 /* facebook.c */,
+				EEBF7EFA1C13D7BC007F3B62 /* facebook.h */,
+				EEBF7EFB1C13D7BC007F3B62 /* http.c */,
+				EEBF7EFC1C13D7BC007F3B62 /* http.h */,
+				EEBF7EFD1C13D7BC007F3B62 /* id.h */,
+				EEBF7EFE1C13D7BC007F3B62 /* json.c */,
+				EEBF7EFF1C13D7BC007F3B62 /* json.h */,
+				EEBF7F001C13D7BC007F3B62 /* Makefile.am */,
+				EEBF7F011C13D7BC007F3B62 /* Makefile.in */,
+				EEBF7F021C13D7BC007F3B62 /* Makefile.mingw */,
+				EEBF7F031C13D7BC007F3B62 /* marshal.c */,
+				EEBF7F041C13D7BC007F3B62 /* marshal.h */,
+				EEBF7F051C13D7BC007F3B62 /* marshaller.list */,
+				EEBF7F061C13D7BC007F3B62 /* mqtt.c */,
+				EEBF7F071C13D7BC007F3B62 /* mqtt.h */,
+				EEBF7F081C13D7BC007F3B62 /* thrift.c */,
+				EEBF7F091C13D7BC007F3B62 /* thrift.h */,
+				EEBF7F0A1C13D7BC007F3B62 /* util.c */,
+				EEBF7F0B1C13D7BC007F3B62 /* util.h */,
+			);
+			path = facebook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +277,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBF7F181C13D7BC007F3B62 /* marshaller.list in Resources */,
+				EEBF7F161C13D7BC007F3B62 /* Makefile.mingw in Resources */,
+				EEBF7F151C13D7BC007F3B62 /* Makefile.in in Resources */,
+				EEBF7F141C13D7BC007F3B62 /* Makefile.am in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +291,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBF7F261C13E138007F3B62 /* http.c in Sources */,
+				EEBF7F1B1C13D7BC007F3B62 /* util.c in Sources */,
 				EE9784501B75975C003AC838 /* AdiumFacebook.m in Sources */,
+				EEBF7EBE1C13CD56007F3B62 /* FacebookService.m in Sources */,
+				EEBF7F0F1C13D7BC007F3B62 /* api.c in Sources */,
+				EEBF7F111C13D7BC007F3B62 /* facebook.c in Sources */,
+				EEBF7EC01C13CDF6007F3B62 /* FacebookAccount.m in Sources */,
+				EEBF7F1A1C13D7BC007F3B62 /* thrift.c in Sources */,
+				EEBF7F171C13D7BC007F3B62 /* marshal.c in Sources */,
+				EEBF7F191C13D7BC007F3B62 /* mqtt.c in Sources */,
+				EEBF7F101C13D7BC007F3B62 /* data.c in Sources */,
+				EEBF7F121C13D7BC007F3B62 /* http.c in Sources */,
+				EEBF7F131C13D7BC007F3B62 /* json.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +399,32 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = "adium-facebook/AdiumFacebook.pch";
-				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/adium/Source/";
+				HEADER_SEARCH_PATHS = (
+					"$(SOURCE_ROOT)/adium/Source/",
+					"$(SOURCE_ROOT)/adium/Frameworks/libglib.framework/Versions/Current/Headers",
+					"$(SOURCE_ROOT)/adium/Frameworks/libintl.framework/Versions/Current/Headers",
+					"$(SOURCE_ROOT)/adium/Frameworks/libpurple.framework/Versions/Current/Headers",
+					"/usr/local/include/glib-2.0/",
+					"/usr/local/lib/glib-2.0/include/",
+					"/usr/local/Cellar/json-glib/1.0.4/include/json-glib-1.0/",
+				);
 				INFOPLIST_FILE = "adium-facebook/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/glib/2.46.2/lib/,
+					"/usr/local/Cellar/json-glib/1.0.4/lib/",
+					/usr/local/Cellar/gettext/0.19.6/lib/,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-DPURPLE_STATIC_PRPL";
+				OTHER_LDFLAGS = (
+					"-lglib-2.0.0",
+					"-ljson-glib-1.0.0",
+					"-lm",
+					"-lintl",
+					"-headerpad_max_install_names",
+				);
+				PRELINK_LIBS = Yes;
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.duxet.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -300,10 +443,32 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = "adium-facebook/AdiumFacebook.pch";
-				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/adium/Source/";
+				HEADER_SEARCH_PATHS = (
+					"$(SOURCE_ROOT)/adium/Source/",
+					"$(SOURCE_ROOT)/adium/Frameworks/libglib.framework/Versions/Current/Headers",
+					"$(SOURCE_ROOT)/adium/Frameworks/libintl.framework/Versions/Current/Headers",
+					"$(SOURCE_ROOT)/adium/Frameworks/libpurple.framework/Versions/Current/Headers",
+					"/usr/local/include/glib-2.0/",
+					"/usr/local/lib/glib-2.0/include/",
+					"/usr/local/Cellar/json-glib/1.0.4/include/json-glib-1.0/",
+				);
 				INFOPLIST_FILE = "adium-facebook/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/glib/2.46.2/lib/,
+					"/usr/local/Cellar/json-glib/1.0.4/lib/",
+					/usr/local/Cellar/gettext/0.19.6/lib/,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-DPURPLE_STATIC_PRPL";
+				OTHER_LDFLAGS = (
+					"-lglib-2.0.0",
+					"-ljson-glib-1.0.0",
+					"-lm",
+					"-lintl",
+					"-headerpad_max_install_names",
+				);
+				PRELINK_LIBS = Yes;
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.duxet.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

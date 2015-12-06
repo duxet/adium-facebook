@@ -19,28 +19,30 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02111-1301  USA
  */
 
-#include "internal.h"
+//#include "internal.h"
+
+#include "../../purple-compat.h"
 
 #include "account.h"
 #include "accountopt.h"
-#include "blistnode.h"
-#include "blistnodetypes.h"
+//#include "blistnode.h"
+//#include "blistnodetypes.h"
 #include "buddyicon.h"
 #include "buddylist.h"
 #include "cmds.h"
 #include "connection.h"
 #include "conversation.h"
-#include "conversations.h"
-#include "conversationtypes.h"
-#include "glibcompat.h"
-#include "image.h"
-#include "image-store.h"
-#include "message.h"
+//#include "conversations.h"
+//#include "conversationtypes.h"
+//#include "glibcompat.h"
+//#include "image.h"
+//#include "image-store.h"
+//#include "message.h"
 #include "notify.h"
-#include "plugins.h"
-#include "presence.h"
-#include "protocol.h"
-#include "protocols.h"
+//#include "plugins.h"
+//#include "presence.h"
+//#include "protocol.h"
+//#include "protocols.h"
 #include "request.h"
 #include "roomlist.h"
 #include "server.h"
@@ -1482,10 +1484,10 @@ purple_init_plugin(PurplePlugin *plugin)
 	info.priority      = PURPLE_PRIORITY_DEFAULT;
 	info.id            = FB_PROTOCOL_ID;
 	info.name          = "Facebook";
-	info.version       = PACKAGE_VERSION;
+	info.version       = "dev-master";
 	info.summary       = N_("Facebook Protocol Plugin");
 	info.description   = N_("Facebook Protocol Plugin");
-	info.homepage      = PACKAGE_URL;
+	info.homepage      = "";
 	info.load          = plugin_load;
 	info.unload        = plugin_unload;
 	info.extra_info    = &pinfo;

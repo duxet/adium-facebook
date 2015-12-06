@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "726E3CCE65380F99ED70E23353BDF65EA19DE49A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3EBCD37D4C8B26F1F3E9B1CA77A9073BD7E6420A" : 0,
+    "726E3CCE65380F99ED70E23353BDF65EA19DE49A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D8EE7952-67E1-47C7-BD01-24E83468DAA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3EBCD37D4C8B26F1F3E9B1CA77A9073BD7E6420A" : "adium-facebook\/adium\/",
+    "726E3CCE65380F99ED70E23353BDF65EA19DE49A" : "adium-facebook\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "adium-facebook",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "adium-facebook.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adium\/adium.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3EBCD37D4C8B26F1F3E9B1CA77A9073BD7E6420A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/duxet\/adium-facebook.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "726E3CCE65380F99ED70E23353BDF65EA19DE49A"
+    }
+  ]
+}
