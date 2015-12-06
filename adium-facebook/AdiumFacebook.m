@@ -9,13 +9,13 @@
 #import "AdiumFacebook.h"
 #import "FacebookService.h"
 
-extern void purple_init_facebook_plugin();
+extern void purple_init_plugin();
 
 @implementation AdiumFacebook
 
 - (void) installPlugin
 {
-    purple_init_facebook_plugin();
+    purple_init_plugin();
     [FacebookService registerService];
 }
 

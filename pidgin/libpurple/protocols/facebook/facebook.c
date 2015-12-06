@@ -1483,8 +1483,8 @@ purple_init_plugin(PurplePlugin *plugin)
 	info.type          = PURPLE_PLUGIN_PROTOCOL;
 	info.priority      = PURPLE_PRIORITY_DEFAULT;
 	info.id            = FB_PROTOCOL_ID;
-	info.name          = "Facebook";
-	info.version       = "dev-master";
+	info.name          = N_("Facebook");
+	info.version       = N_("dev-master");
 	info.summary       = N_("Facebook Protocol Plugin");
 	info.description   = N_("Facebook Protocol Plugin");
 	info.homepage      = "";
@@ -1535,3 +1535,5 @@ purple_init_plugin(PurplePlugin *plugin)
 	inited = TRUE;
 	return purple_plugin_register(plugin);
 }
+
+
