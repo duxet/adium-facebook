@@ -425,6 +425,7 @@
 				OTHER_CFLAGS = "-DPURPLE_STATIC_PRPL";
 				OTHER_LDFLAGS = (
 					"-lglib-2.0.0",
+					"-lgobject-2.0.0",
 					"-ljson-glib-1.0.0",
 					"-lm",
 					"-lintl",
@@ -470,6 +471,7 @@
 				OTHER_CFLAGS = "-DPURPLE_STATIC_PRPL";
 				OTHER_LDFLAGS = (
 					"-lglib-2.0.0",
+					"-lgobject-2.0.0",
 					"-ljson-glib-1.0.0",
 					"-lm",
 					"-lintl",
