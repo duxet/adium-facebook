@@ -28,6 +28,8 @@
 		EEBF7F1F1C13DB10007F3B62 /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBF7F1E1C13DB10007F3B62 /* libpurple.framework */; };
 		EEBF7F261C13E138007F3B62 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F241C13E138007F3B62 /* http.c */; };
 		EEBF7F2A1C14696B007F3B62 /* purple-socket.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBF7F281C14696B007F3B62 /* purple-socket.c */; };
+		EEBF7F2D1C147ED6007F3B62 /* facebook-small.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7F2B1C147ED6007F3B62 /* facebook-small.png */; };
+		EEBF7F2E1C147ED6007F3B62 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBF7F2C1C147ED6007F3B62 /* facebook.png */; };
 		EEC9227C1BC476B700F3241A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC9227B1BC476B700F3241A /* AppKit.framework */; };
 		EEC922831BC47D4A00F3241A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922821BC47D4A00F3241A /* CoreData.framework */; };
 		EEC922871BC47DC900F3241A /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC922841BC47DC900F3241A /* Adium.framework */; };
@@ -76,6 +78,8 @@
 		EEBF7F271C13E1F2007F3B62 /* purple-compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "purple-compat.h"; sourceTree = "<group>"; };
 		EEBF7F281C14696B007F3B62 /* purple-socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "purple-socket.c"; path = "pidgin/libpurple/purple-socket.c"; sourceTree = "<group>"; };
 		EEBF7F291C14696B007F3B62 /* purple-socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "purple-socket.h"; path = "pidgin/libpurple/purple-socket.h"; sourceTree = "<group>"; };
+		EEBF7F2B1C147ED6007F3B62 /* facebook-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-small.png"; path = "adium/Resources/Service Icons/Aqua.AdiumServiceIcons/facebook-small.png"; sourceTree = "<group>"; };
+		EEBF7F2C1C147ED6007F3B62 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = "adium/Resources/Service Icons/Aqua.AdiumServiceIcons/facebook.png"; sourceTree = "<group>"; };
 		EEC9227B1BC476B700F3241A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EEC922821BC47D4A00F3241A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EEC922841BC47DC900F3241A /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 		EE97843B1B758FF5003AC838 = {
 			isa = PBXGroup;
 			children = (
+				EEBF7F2B1C147ED6007F3B62 /* facebook-small.png */,
+				EEBF7F2C1C147ED6007F3B62 /* facebook.png */,
 				EEBF7EC11C13CE01007F3B62 /* FacebookAccount.h */,
 				EEBF7EBF1C13CDF6007F3B62 /* FacebookAccount.m */,
 				EEBF7EBD1C13CD56007F3B62 /* FacebookService.m */,
@@ -283,9 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEBF7F181C13D7BC007F3B62 /* marshaller.list in Resources */,
+				EEBF7F2E1C147ED6007F3B62 /* facebook.png in Resources */,
 				EEBF7F161C13D7BC007F3B62 /* Makefile.mingw in Resources */,
 				EEBF7F151C13D7BC007F3B62 /* Makefile.in in Resources */,
 				EEBF7F141C13D7BC007F3B62 /* Makefile.am in Resources */,
+				EEBF7F2D1C147ED6007F3B62 /* facebook-small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

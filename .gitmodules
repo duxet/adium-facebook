@@ -1,3 +1,4 @@
 [submodule "adium"]
 	path = adium
 	url = https://github.com/adium/adium.git
+	branch=adium-1.5.11
