@@ -15,9 +15,8 @@ brew install json-glib openssl
 git clone https://github.com/duxet/adium-facebook.git
 cd adium-facebook
 git submodule update --init --recursive
-export USER_HEADER_SEARCH_PATHS="/usr/local/include/json-glib-1.0/ /usr/local/opt/openssl/include/"
 cd adium
-xcodebuild -configuration=release build
+xcodebuild -configuration=release HEADER_SEARCH_PATHS="/usr/local/opt/openssl/include/" OTHER_CFLAGS="$(pkg-config --cflags --libs glib-2.0)"
 cd ..
-xcodebuild build
+xcodebuild build HEADER_SEARCH_PATHS="/usr/local/include/json-glib-1.0/"
 ```
